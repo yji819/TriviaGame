@@ -5,7 +5,7 @@ var question2 = $("input[name= 'q2']:checked").val();
 var question3 = $("input[name= 'q3']:checked").val();
 var correct = 0;
 var wrong = 0;
-var remainTime = 5;
+var remainTime = 7;
 var interval = setInterval(countDown, 1000)
 
 $('input[name="q1"]').change(function(){
